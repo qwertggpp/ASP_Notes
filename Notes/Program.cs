@@ -13,6 +13,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.MapControllers();
+app.MapControllers();  // тест
 
 app.Run();
